@@ -3,16 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Username & Password Generator</title>
+    <title>Renix Generator</title>
+    <link rel="icon" href="Images/padlock.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Username & Password Generator</h1>
+        <h1>Renix Generator</h1>
         <button id="generate">Generate</button>
+        <button id="copy-username">Copy Username</button>
+        <button id="copy-password">Copy Password</button>
+        <button id="copy-combo">Copy Combo</button>
         <div class="results">
-            <p><strong>Username:</strong> <span id="username"></span></p>
-            <p><strong>Password:</strong> <span id="password"></span></p>
+            <p><strong for="username">Username:</strong> <span id="username"></span></p>
+            <p><strong for="password">Password:</strong> <span id="password"></span></p>
+            <p><strong for="combo">Combo:</strong> <span id="combo"></span></p>
         </div>
     </div>
     <script src="script.js"></script>
